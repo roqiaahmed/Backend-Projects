@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const post = require('./post');
 
 const commentSchema = new mongoose.Schema({
   publisher: {

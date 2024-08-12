@@ -30,16 +30,16 @@ router.post('/people', createPerson);
 router.put('/people/:id', updatePerson);
 router.delete('/people/:id', deletePerson);
 
-router.get('userId/posts', getUserPosts);
+router.get('/:userId/posts', getUserPosts);
 router.post('/posts', createPost);
 router.get('/posts', getPosts);
 router.get('/posts/:id', getPost);
 router.put('/posts/:id', updatePost);
 router.delete('/posts/:id', deletePost);
 
-router.get('/comments', getComments);
+router.get('/:postId/comments', getComments);
+router.post('/:postId/comments', createComment);
 router.get('/comments/:id', getComment);
-router.post('/comments', createComment);
 router.put('/comments/:id', updateComment);
 router.delete('/comments/:id', deleteComment);
 
