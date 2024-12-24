@@ -2,6 +2,7 @@
 
 Welcome to the Personal Blogging Platform API documentation. This API provides endpoints for managing people, posts, and comments on a personal blog.
 
+Sample solution for the [Blogging Platform API](https://roadmap.sh/projects/blogging-platform-api) challenge from [roadmap.sh](https://roadmap.sh/).
 # End Points
 
 ## People
