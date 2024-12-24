@@ -5,6 +5,7 @@ Welcome to a curated list of 20 backend projects aimed at enhancing your coding 
 # Project Ideas
 
  - Personal Blogging Platform API
+   Sample solution for the [Blogging Platform API](https://roadmap.sh/projects/blogging-platform-api) challenge from [roadmap.sh](https://roadmap.sh/).
  - To-Do List API
  - Weather API Wrapper Service
  - Expense Tracker API
