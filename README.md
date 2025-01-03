@@ -8,6 +8,7 @@ Welcome to a curated list of 20 backend projects aimed at enhancing your coding 
   Sample solution for the [Blogging Platform API](https://roadmap.sh/projects/blogging-platform-api).
 - GitHub User Activity
   Sample solution for the [GitHub User Activity](https://roadmap.sh/projects/github-user-activity)
+- Expense Tracker CLI [Expense Tracker](https://roadmap.sh/projects/expense-tracker)
 - To-Do List API
 - Weather API Wrapper Service
 - Expense Tracker API
