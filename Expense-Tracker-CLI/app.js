@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 import { program } from 'commander';
 import Add from './commands/add.js';
+import List from './commands/list.js';
+
 program
   .command('add')
   .description('Add a new expense')
@@ -15,24 +17,17 @@ program
   .command('list')
   .description('List all expenses')
   .action(() => {
-    console.log('Listing all expenses');
+    const list = new List();
+    list.listExpenses();
   });
 
 program
   .command('delete')
   .description('Delete an expense')
-  .option('--id <string>', 'ID of the expense')
-  .action(() => {
-    console.log('Deleting an expense');
+  .option('--id <number>', 'ID of the expense')
+  .action((expense) => {
+    const deleteExpense = new DeleteExpense(expense.id);
+    deleteExpense.delete();
   });
 
-program
-  .command('update')
-  .description('Update an expense')
-  .arguments('<id>')
-  .option('--description <string>', 'Description of the expense')
-  .option('--amount <number>', 'Amount of the expense')
-  .action(() => {
-    console.log('Updating an expense');
-  });
 program.parse(process.argv);

@@ -22,6 +22,10 @@ export default class Add {
     return true;
   }
 
+  formatDate(date) {
+    return `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}`;
+  }
+
   addExpense() {
     if (!this.isValid()) {
       console.log('Please provide a vaild description and vaild amount');
@@ -34,8 +38,9 @@ export default class Add {
           id: this.id,
           description: this.description,
           amount: this.amount,
-          date: this.date,
+          date: this.formatDate(this.date),
         });
+
         this.fileManager.writeFile(data);
         console.log(`Expense added successfully (ID: ${this.id})`);
       });
