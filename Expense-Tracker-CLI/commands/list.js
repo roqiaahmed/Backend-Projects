@@ -37,15 +37,16 @@ export default class List {
     });
   }
 
-  getExpenseById(id) {
-    new Promise((res, rej) => {
-      this.getExpenses().then(() => {
-        for (let i = 0; i < this.expenses.length; i++) {
-          if (this.expenses[i].id == id) {
-            res(this.expenses[i]);
-          }
-        }
-      });
-    });
-  }
+  // async getExpenseById(id) {
+  //   new Promise((res, rej) => {
+  //     this.getExpenses().then(() => {
+  //       for (let i = 0; i < this.expenses.length; i++) {
+  //         if (this.expenses[i].id === id) {
+  //           console.log(this.expenses[i]);
+  //           res(this.expenses[i]);
+  //         }
+  //       }
+  //     });
+  //   });
+  // }
 }

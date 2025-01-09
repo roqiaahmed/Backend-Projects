@@ -31,6 +31,7 @@ export default class FileManager {
       if (callback) {
         callback(expenses);
       }
+      return expenses;
     });
   }
 
