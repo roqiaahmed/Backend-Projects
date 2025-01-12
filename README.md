@@ -6,6 +6,8 @@ Welcome to a curated list of 20 backend projects aimed at enhancing your coding 
 
 - Personal Blogging Platform API
   Sample solution for the [Blogging Platform API](https://roadmap.sh/projects/blogging-platform-api).
+- Number Guessing Game
+  Sample solution for the [Number Guessing Game](https://roadmap.sh/projects/number-guessing-game).
 - GitHub User Activity
   Sample solution for the [GitHub User Activity](https://roadmap.sh/projects/github-user-activity)
 - Expense Tracker CLI [Expense Tracker](https://roadmap.sh/projects/expense-tracker)
