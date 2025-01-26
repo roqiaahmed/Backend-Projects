@@ -9,6 +9,7 @@ Welcome to a curated list of 20 backend projects aimed at enhancing your coding 
 - GitHub User Activity [GitHub User Activity](https://roadmap.sh/projects/github-user-activity)
 - Expense Tracker CLI [Expense Tracker](https://roadmap.sh/projects/expense-tracker)
 - Unit Converter [Unit Converter](https://roadmap.sh/projects/unit-converter)
+- TMDB CLI Tool [TMDB CLI Tool](https://roadmap.sh/projects/tmdb-cli)
 - To-Do List API
 - Weather API Wrapper Service
 - Expense Tracker API
